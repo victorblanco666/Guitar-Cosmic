@@ -286,50 +286,29 @@ footer .container{
 
 
 /*iniciar  css*/
-body .bodini{
-    
-    background-color: #da0909;
+.login {
+    background-color: #f5f5f5;
 }
-.ini{
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.container {
+    margin-top: 50px;
 }
-
-.formu {
-    
-    max-width: 400px;
-    margin: 0 auto;
+.login.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f2f2f2;
+}
+/*register*/
+
+.register {
+    background-color: #f5f5f5;
+}
+.container {
+    margin-top: 50px;
+}
+.register.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.formu-text {
-    font-size: 14px;
-    color: #777;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    font-size: 16px;
-}
-
-.btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
-}
-
-.volver {
-    margin: 2%;
-}
-
-.volver a {
-    font-size: 2rem; /* agrandar el botón */
 }
