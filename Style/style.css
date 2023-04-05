@@ -248,7 +248,6 @@ footer .container{
 /*End Mobbile Version */
 
 @media(min-width: 720px){
- 
     header .container{
         flex-direction:row;
         justify-content:space-between;
@@ -266,5 +265,10 @@ footer .container{
         padding-bottom: 0;
         padding-right: 20px;
     }
+}
+
+/*.show lo ocupe para javascript*/
+.show {
+    display: block !important;
 }
     
