@@ -21,6 +21,15 @@ body{ /*aspectos generales del cuerpo */
     margin: 0;
 }
 
+/*.show lo ocupe para javascript*/
+.show {
+    display: block !important;
+}
+
+.navbar-brand{
+    color: aqua;
+}
+
 .subtitulo{
     color: blueviolet;
 }
@@ -267,8 +276,5 @@ footer .container{
     }
 }
 
-/*.show lo ocupe para javascript*/
-.show {
-    display: block !important;
-}
+
     
