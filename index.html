@@ -1,136 +1,212 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guitar Cosmic</title>
-  <link rel="shortcut icon" href="/guitarra1.jpg" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/Style/style.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <!--Comienzo del header-->
+
   <header>
-    <!--barra de navegacion-->
-    <div class="NavBar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="/index.html">Guitar Cosmic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        <a class="navbar-brand" href="#">GuitarCosmic</a>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mis cursos</a>
-                    </li> 
-                </ul>     
-            </div>
-            <div class="iniciar-buscarl">
-              <a href="registrarse.html" class="btn btn-primary btn-sm" >Registrarse</a>
-                <a href="iniciar.html" class="btn btn-primary btn-sm" >Iniciar sesión</a>
-                <button id="btn-search" class="btn btn-default">🔍</button>
-            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#nosotros">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#niveles">Nuestros cursos</a>
+              </li>
+
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
-    <!--buscador-->
-  <section class="buscar">
-    <div id="search-container" style="display: none;">
-        <form class="navbar-form" role="search">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Buscar">
-            </div>
-            <button type="submit" class="btn btn-default">Buscar</button>
-        </form>
-    </div>
-</section>
-
-    <div class="container">
-      <p class="logo ">Guitar Cosmic</p>
-      <nav>
-        <a href="#victor">Quienes somos</a>
-        <a href="#niveles">Nuestros cursos</a>
-        <a href="/index2.html" target="_blank">Instagram Profesor</a>
-      </nav>
-    </div>
   </header>
-  <!-- Fin del header-->
-  
 
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
 
-  <!--Seccion 1-->
-  <section id="hero">
-    <h1>¡Aprende guitarra eléctrica desde 0!</h1>
-    <form action="https://www.google.com/" target="_blank">
-      <button><a href="registrarse.html">Registrarse</a></button>
-    </form>
+        <div class="carousel-item active d-item">
+          <img src="/media/Nebula/Heart.jpg" class="d-block w-100 d-img" alt="sliider 1">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-2 text-capitalize">
+              Bienvenido a Guitar Cosmic
+            </p>
+            <h1 class="display-1 fw-bolder text-capitalize">Curso online</h1>
+            <form action="/iniciar.html">
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Iniciar sesion</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="carousel-item  d-item">
+          <img src="/media/Nebula/moon.jpg" class="d-block w-100 d-img" alt="sliider 1">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-2 text-capitalize">
+              Bienvenido a Guitar Cosmic
+            </p>
+            <h1 class="display-1 fw-bolder text.capitalize">Curso online</h1>
+            <form action="/registrarse.html">
+              <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Registrarse</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="carousel-item  d-item">
+          <img src="/media/Nebula/nebula pink.jpg" class="d-block w-100 d-img" alt="sliider 1">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-2 text-capitalize">
+              Bienvenido a Guitar Cosmic
+            </p>
+            <h1 class="display-1 fw-bolder text-capitalize">Curso online</h1>
+            <button type="button" class="px-4 py-2 fs-5 mt-5 btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#miModal">Términos</button>
+
+            <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle"
+              data-bs-backdrop="static">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Términos y política de privacidad</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Bienvenido a nuetro Sitio Web en el cual podás tener la oportunidad de comenzar un nuevo camino
+                      en tu vida, en donde además de aprender a tocar la guitarra eléctrica , aprenderás a como crear
+                      música
+                      por tus propios medios es decir crear tu propia música , genial no?<br>
+                      Para eso te explicaremos un poco acerca de la pótilica con la cual esta desarrollada la
+                      página.<br>
+                      Este sitio web ha sido creado sin fines de lucro sin embargo para nosotros es muy importante
+                      que tu te registres en nuestra página, de esta forma nos harás saber que estamos haciendo bien
+                      nuestro trabajo el cual se enfoca netamente en tu aprendizaje y desarrollo como futuro mÚsico.
+                      <br>
+                      AquÍ encontrarás todas las herramientas necesarias para convertirte en el próximo Jimi Hendrix,
+                      Stevie Ray
+                      Vaughan, Steve Vai , Joe Satriani , Eddie Van Halen , Tom Morello , Guthrie Govan , Eric Clapton ,
+                      BB King
+                      , Eric Jonhson , entre otros guitarristas destacados de la historia de la música moderna. <br>
+                      Pero lo mas importante para nosotros es que con todas estas herramientas seas capaz de encontrar
+                      tu propio
+                      camino y estilo, logrando así conseguir un tono único, asi es este tono es que sale de tus manos.
+                      Asi que anímate ya sabes que hacer solo debes registrarte y con eso contribuirás con un apoyo
+                      tremendo
+                      a esta hermosa comunidad de guitarristas que solo busca crecer a través del mundo entero.
+                    </p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
-  
 
-  <section id="victor">
-    <div class="container">
-      <div class="img-container"></div>
-      <h2>Somos <span class="subtitulo">Guitar Cosmic</span>
-      </h2>
+
+
+  <section>
+    <div class="container-fluid text-center" id="nosotros">
+      <h1>Quienes somos</h1>
       <p>Guitar Cosmic es una página creada por 3 desarrolladores de software con la finalidad
         de entregar cursos de forma gratuita acerca de la Guitarra Eléctrica para todas las personas del mundo y
         de todas las edades que no cuenten con el presupuesto suficiente para tomar
         clases con profesores particulares o en una academia. Esta motivación nace desde la filosofía de que todas las
         personas deberían tener el derecho o al menos la oportunidad de aprender a tocar un instrumento musical
         sacando lo mejor de cada uno, y quien sabe tal vez
-        llegar a niveles muy altos con sus propias manos, medios y esfuerzo. </p>
+        llegar a niveles muy altos con sus propias manos, medios y esfuerzo.
+
+      </p>
     </div>
   </section>
 
-  <!--End Hero  -->
 
-  <!--Section : Cursos-->
-  <section id="niveles">
-    <div class="container">
-      <h2>Nuestros cursos</h2>
-      <div class="grados">
-        <div class="cursos">
-          <h3>Nivel 1</h3>
-          <span class="hide" id="hideText">En el nivel 1 veremos lo más básico del arte de la guitarra, donde veremos la postura con la cual
-            agarrar el instrumento, ademas de algunos acordes fáciles para que comiences a acostumbrarte a los tonos de tu guitarra y un poco
-            de afinación de la misma.
-          </span>
-          <button id="hideText_btn">+ Info</button>
+
+
+  <section>
+    <div class="container text-center mt-5" id="niveles">
+      <h3 class="display-6">Niveles</h3>
+      <div class="row mt5">
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+          <div class="card shadow">
+            <img src="/media/Nebula/Heart.jpg" class="card-img-top" alt="1">
+            <h4>Nivel 1</h4>
+            <p>En este nivel daras tus primeros pasos</p>
+            <hr>
+            <a href="#" class="btn btn-sm btn-primary">click</a>
+          </div>
         </div>
-        <div class="cursos">
-          <h3>Nivel 2</h3>
-          <span class="hide" id="hideText2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat nisi dicta repudiandae, optio sequi
-            voluptatem inventore ullam dolore id nemo ipsum neque eius odio voluptatibus molestias rem. Accusamus, odit?
-          </span>
-          <button id="hideText_btn2">+ Info</button>
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+          <div class="card shadow">
+            <img src="/media/Nebula/Heart.jpg" class="card-img-top" alt="">
+            <h4>Nivel 2</h4>
+            <p>En este nivel aprenderas armonía</p>
+            <hr>
+            <a href="#" class="btn btn-sm btn-primary">click</a>
+          </div>
         </div>
-        <div class="cursos">
-          <h3>Nivel 3</h3>
-          <span class="hide" id="hideText3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat nisi dicta repudiandae, optio sequi
-            voluptatem inventore ullam dolore id nemo ipsum neque eius odio voluptatibus molestias rem. Accusamus, odit?
-          </span>
-          <button id="hideText_btn3">+ Info</button>
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+          <div class="card shadow">
+            <img src="/media/Nebula/Heart.jpg" class="card-img-top" alt="">
+            <h4>Nivel 3</h4>
+            <p>En este aprenderás técnica avanzada</p>
+            <hr>
+            <a href="#" class="btn btn-sm btn-primary">click</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!--End Section : Cursos-->
 
 
-  <!--Section Características-->
-  <section id="caracteristicas">
-    <div class="container">
-      <ul>
+  <section>
+    <div class="container-fluid text-center " id="caracteristicas">
+      <ul class="lista">
         <li>🎸 100% Gratis</li>
         <li>🎸 Aprendizaje garantizado</li>
         <li>🎸 Ritmo a tu ritmo</li>
@@ -138,38 +214,32 @@
       </ul>
     </div>
   </section>
-  <!--End Section Características-->
 
-  <!--Section : Comenzar-->
-  <section id="comenzar">
-    <h2>¿Listo para comenzar?</h2>
-    <button> <a href="registrarse.html">Registrarse</a></button>
+  <section>
+    <footer>
+      <div class="container-fluid text-center">
+        <p>&copy; Esta página esta sujeta a los derechos de autor del equipo de desarrollo Full Stack
+          <br>
+          -----------------------------------------------------------------------------------------
+          <br>
+          Roberto
+          <br>
+          Christian
+          <br>
+          Víctor
+          <br>
+          -----------------------------------------------------------------------------------------
+        </p>
+      </div>
+    </footer>
   </section>
-  <!--End Section : Comenzar-->
 
 
-  <!--Footer-->
-  <footer>
-    <div class="container">
-      <p>&copy; Derechos reservados equipo de desarrollo full stack
-        <br>
-        ------------------------------------------------------------
-        <br>
-        Roberto
-        <br>
-        Christian
-        <br>
-        Víctor
-        <br>
-        ------------------------------------------------------------
-      </p>
-    </div>
-  </footer>
-  <!--End Footer-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
-  <script src="js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

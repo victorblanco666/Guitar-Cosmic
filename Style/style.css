@@ -1,314 +1,45 @@
 
-/*LOS ESTILOS SE DEFINIERON USANDO EL MODELO 
-FIRST MOVILE PARA, PARA PORTERIORMENTE 
-DAR ESTILO AL FORMATO WEB*/
-
-
-*{
-    box-sizing: border-box; /*esta propiedad
-    hace que cuando agrego pading o borde no crezca mas haya de lo indicado */
-    
-}
-
 
 html{/*tecnica para desplazar al seleccionar
     una opcion del inicio con un efecto */
     scroll-behavior: smooth;
+}   
+
+/*Estilos para el carousel */
+.d-item{
+    height: 700px;
 }
 
-body{ /*aspectos generales del cuerpo */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
 }
 
-/*.show lo ocupe para javascript*/
-.show {
-    display: block !important;
+/*fin estilos carousel*/
+
+#nosotros{
+    padding-top: 90px;
+    font-size: 1.4em;
+    padding-bottom: 50px;
 }
 
-.navbar-brand{
-    color: aqua;
-}
-
-.subtitulo{
-    color: blueviolet;
-}
-
-/*aspectos generales de las etiquetas H */
-
-h1{font-size: 2em; /*em significa el tamaño 
-    relativo al tamaño de la fuente */
-} 
-h2{font-size: 1.7em;}
-h3{font-size: 1em;}
-ul{list-style: none;}
-
-    
-/*aspectos generales de los botones */
-button{
-    font-size: 1em;
-    font-weight: bold; /*marcado en negrita */
-    padding: 8px 16px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0,0.5);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0,0.5) ;
-    color: white;
-    background-color: blueviolet;
-}
-
-button:hover{  /*funcion para dar efeto al poner el cursor sobre el boton*/
-    background-color: rgb(86, 28, 140);
-}
-
-/*Fin del codigo DRY: don't Repeat Yourself
-No repitas tu codigo */
-
-/*---------------------------------------*/
-
-/*Stilos para las clases, contenedores ,A
-y nav Principales del header  */
-
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-header{
-    background-color: rgb(245, 245, 245,);
-}
-
-header .logo{
-    text-align: center;
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: blueviolet;
-    font-size: 2em;
-}
-
-header .container{
-    display: flex; /*Para centrar el contointer */
-    flex-direction: column; /*que se ordene en columna */
-    align-items: center;
-}
-
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 30px; /*para bajar lo que este fuera hacia abajo */
-}
-
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: pink;
-    font-size:1.5em;
+#caracteristicas{
+    padding-top: 60px;
+    padding-bottom: 70px;
     
 }
 
-header a:hover{
-    color: blueviolet;
-}
-
-/*Fin de eslitos generales al header */
-
-
-
-/*-----------------------------------*/
-
-
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("/media/nebulosa.jpg");
-    /*imagen insertada con elefecto linear gradient para poner una capa ascura sobre la imageg */
-    background-repeat: no-repeat;
-    background-size: cover; /*para cubir todo el cuadro con la imagen */
-    background-position: center center; /*posicion siempre al centro */
-}
-
-#hero h1{
-    color: whitesmoke;
-}
-
-#hero button{
-    font-size: 5vh;
-}
-/*END section Hero*/
-
-
-
-
-#victor .container{ 
-    text-align: center;
-    padding: 200px 12px;
-}
-
-#victor p{
-    font-size:1.5em;
-}
-
-#niveles{
-    background-color: rgba(30,30,30);
-    color: whitesmoke;
-    text-align: center;
-}
-
-#niveles .container{
-    padding: 100px 10px;
-}
-
-#niveles span{
-    display: none; /*mostrar (no) */
-}
-
-#niveles h2{
-    font-size: 2em;
-}
-
-#niveles .cursos{
-    background-position: center center;
-    background-size:cover ;
-    padding: 50px ;
-    margin: 20px;
-    border-radius: 15px;
-
-}
-
-.cursos:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5))
-    ,url("/media/guitarra1.jpg");
+.lista{
+    list-style-type: none;
     
-}
-
-.cursos:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5))
-    ,url("/media/guitarra1.jpg");
-    
-}
-
-.cursos:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5))
-    ,url("/media/guitarra1.jpg");
-}
-
-
-#caracteristicas .container{
-    text-align: center;
-    padding: 200px 12px;
-}
-
-#caracteristicas li{
-    margin: 16px 0px;
-    font-weight: bold;
-}
-
-#comenzar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(30, 30, 30);
-    color: whitesmoke;
-    height: 80vh;
-}
-
-footer{
-    background-color: rgb(230,230,230);
 }
 
 footer p{
-    margin: 0;
-    padding: 12 px;
+    
     color: rgb(100, 100, 100);
 }
 
-footer .container{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-/*End Mobbile Version */
-
-@media(min-width: 720px){
-    header .container{
-        flex-direction:row;
-        justify-content:space-between;
-    }
-
-    header{
-        
-        position: fixed;
-        width:100%;
-        height:30%;
-    }
-
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
-}
-
-.hide {
-    display: none;
-}
-    
-.show {
-    display: block;
-}
-
-
-/*iniciar  css*/
-.login {
-    background-color: #f5f5f5;
-}
-.container {
-    margin-top: 50px;
-}
-.login.card {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-/*register*/
-
-.register {
-    background-color: #f5f5f5;
-}
-.container {
-    margin-top: 50px;
-}
-.register.card {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+#miModal{
+    color: black;
 }
