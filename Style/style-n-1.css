@@ -110,3 +110,11 @@ input[id^="spoiler"]:checked + label + .spoiler{
     padding: 10px 20px;
     text-decoration: none;
 }
+
+
+
+
+footer p{
+    margin-top: 5em;
+    color: rgb(100, 100, 100);
+}
