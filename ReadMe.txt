@@ -1,4 +1,6 @@
 -------------Abir index-no-login----------------------------------
+-------------Agregar etiquetas de descripcion--------------------
+-------------Importar funciones JS a main de JS------------------
 -------------validar olvidaste tu contraseña-------------------------
 -------------validar registro de usuario y que derive a la pagina Login -------------------------
 -------------Incluir ventana de planes con 3 cards----------------------
