@@ -10,7 +10,7 @@
 
 </head>
 <body class="login">
-    <button type="button" class="btn btn-primary "><a href="index.html" id="volver">Volver</a></button>
+    <button type="button" class="btn btn-primary "><a href="/index-no-log.html" id="volver">Volver</a></button>
     <div class="container1">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -89,7 +89,7 @@ form.addEventListener("submit", function(event) {
     if (emailValue === defaultUser.email && passwordValue === defaultUser.password) {
     alert("Inicio de sesión exitoso!");
 
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
 } else {
     // Mostrar mensaje de error
     alert("Correo electrónico o contraseña incorrectos. Por favor, inténtalo de nuevo.");
