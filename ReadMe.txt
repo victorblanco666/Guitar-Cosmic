@@ -1,4 +1,4 @@
--------------Abir index-no-login----------------------------------
+-------------Siempre comenzar abriendo el index no log----------------------------------
 -------------validar registro de usuario y que derive a la pagina Login ------------------------- Listo
 -------------Incluir ventana de planes con 3 cards----------------------
 -------------Luego de seleccionar cualquier plan derivar a pagina de transaccion--------------------
