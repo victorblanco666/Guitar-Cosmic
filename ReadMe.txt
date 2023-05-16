@@ -1,12 +1,10 @@
 -------------Abir index-no-login----------------------------------
--------------Agregar etiquetas de descripcion--------------------
--------------Importar funciones JS a main de JS------------------
 -------------validar olvidaste tu contraseña-------------------------
 -------------validar registro de usuario y que derive a la pagina Login -------------------------
 -------------Incluir ventana de planes con 3 cards----------------------
 -------------Luego de seleccionar cualquier plan derivar a pagina de transaccion--------------------
 -------------Buscar api con servicios de pago-------------------------------
--------------Conectar servicios de la api 
+-------------Conectar servicios de la api------------------------------------ 
 -------------validar Inicio de sesion y que derive a la pagina index con los cursos-------------------------
 -------------Agregar etiquetas de descripcion a las paginas----------------------------------
 -------------Hacer un mejor Diseño al login y register--------------------------------------------------
