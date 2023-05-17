@@ -105,34 +105,5 @@ $.ajax({
     });
 }
 
-//funcion al precionar el album buscar las canciones
-function showSongs(albumName) {
-$.ajax({
-url: 'https://ws.audioscrobbler.com/2.0/?method=album.getinfo&album=${encodeURIComponent(albumName)}&api_key=9ef7678a65f86f361a9fea414e2a132a&format=json',
-method: 'GET',
-success: function (response) {
-if (response.album && response.album.tracks && response.album.tracks.track && response.album.tracks.track.length > 0) {
-let songsHTML = '';
-    // Construir la lista de canciones del álbum
-    for (let i = 0; i < response.album.tracks.track.length; i++) {
-        const track = response.album.tracks.track[i];
-        const songTitle = track.name;
-        const songArtist = track.artist.name;
+//funcion al precionar el album buscar las canciones--problemas tecnicos no funciono
 
-        songsHTML += `
-        <div>
-            <h2>${songTitle}</h2>
-            <p>Artista: ${songArtist}</p>
-        </div>`;
-    }
-
-    sheetContainer.innerHTML = songsHTML;
-    } else {
-    sheetContainer.innerHTML = 'No se encontraron canciones para el álbum especificado.';
-    }
-},
-error: function () {
-    sheetContainer.innerHTML = 'Error al obtener las canciones del álbum.';
-}
-});
-}
