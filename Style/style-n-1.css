@@ -77,11 +77,12 @@ input[id^="spoiler"]:checked + label + .spoiler{
 }
 
 .main{
-    position: relative;
     background: url("/media/Nebula/moon.jpg");
-    min-height: 100vh;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 100vh;
     padding: 280px 0 220px;
     font-weight: 600;
     font-size: 1em;
