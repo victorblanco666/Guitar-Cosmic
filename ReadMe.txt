@@ -1,9 +1,6 @@
--------------Siempre comenzar abriendo el index no log----------------------------------
+-------------Siempre comenzar abriendo el index no log----------------------------------Listo
 -------------validar registro de usuario y que derive a la pagina Login ------------------------- Listo
--------------Incluir ventana de planes con 3 cards----------------------
--------------Luego de seleccionar cualquier plan derivar a pagina de transaccion--------------------
--------------Buscar api con servicios de pago-------------------------------
--------------Conectar servicios de la api------------------------------------ 
--------------validar Inicio de sesion y que derive a la pagina index con los cursos-------------------------
--------------Agregar etiquetas de descripcion a las paginas----------------------------------
+-------------Conectar servicios de la api------------------------------------Listo
+-------------validar Inicio de sesion y que derive a la pagina index con los cursos-------------------------Listo
+-------------Agregar etiquetas de descripcion a las paginas----------------------------------Listo
 -------------Hacer un mejor Diseño al login y register--------------------------------------------------Listo

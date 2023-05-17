@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+*{
+    background: url("/media/Nebula/Heart.jpg")no-repeat center center;
+    background-size: cover;
+}
 
 .container{
     margin-top: 20px;
