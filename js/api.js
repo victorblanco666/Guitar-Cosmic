@@ -6,7 +6,7 @@ const sheetContainer = document.getElementById('sheetContainer');
 //funcion para verificar si esta buscando una cancion o los album a traves del cantante
 function searchSong() {
 const searchTerm = searchInput.value;
-const isArtist = searchTerm.toLowerCase().startsWith('artista:');
+const isArtist = searchTerm.toLowerCase().startsWith('artist:');
 if (isArtist) {
     const artistName = searchTerm.substring(7).trim();
     searchByArtist(artistName);
@@ -34,7 +34,6 @@ $.ajax({
             <h2>${albumName}</h2>
             <img src="${albumImage}" alt="Portada del álbum">
             <p>Artista: ${albumDescription}</p>
-            <button class="albumButton" data-album="${albumName}">Mostrar canciones</button>
             </div>`;
         }
 
