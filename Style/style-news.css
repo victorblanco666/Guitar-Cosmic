@@ -7,6 +7,8 @@ body{
     background: url("/media/Nebula/nebula\ pink.jpg") no-repeat center center;
     box-sizing: border-box;
     color: whitesmoke;
+    box-sizing: cover;
+    
 }
 
 #busqueda{
