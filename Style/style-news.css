@@ -1,0 +1,13 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin-top: 20px;
+    padding-left: 25%;
+} 
+
+
