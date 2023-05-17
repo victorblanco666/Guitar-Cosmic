@@ -3,15 +3,26 @@
     margin: 0;
     padding: 0;
 }
-
-*{
-    background: url("/media/Nebula/Heart.jpg")no-repeat center center;
-    background-size: cover;
+body{
+    background: url("/media/Nebula/nebula\ pink.jpg") no-repeat center center;
+    box-sizing: border-box;
+    color: whitesmoke;
 }
 
-.container{
-    margin-top: 20px;
-    padding-left: 25%;
-} 
+
+footer{
+    color: black;
+    padding-top: 30%;
+}
+
+
+
+
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
 
 
